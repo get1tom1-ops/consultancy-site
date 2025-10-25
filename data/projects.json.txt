@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Sennay Malaria Project Evaluation",
+    "summary": "Independent evaluation of a seasonal mobile worker malaria project in Ethiopia.",
+    "client": "ICAP / Columbia University",
+    "role": "Lead Consultant",
+    "report": "reports/malaria_project.pdf"
+  },
+  {
+    "title": "Abortion Studies in Ethiopia",
+    "summary": "Collaborative research on safe abortion practices and policies.",
+    "client": "Clinton Health Access Initiative",
+    "role": "Research Partner",
+    "report": "reports/abortion_study.pdf"
+  }
+]

@@ -1,0 +1,50 @@
+// Load Team
+fetch('data/team.json')
+  .then(res => res.json())
+  .then(team => {
+    const container = document.getElementById('team-container');
+    team.forEach(m => {
+      container.innerHTML += `
+        <div class="team-card">
+          <img src="${m.photo}" alt="${m.name}">
+          <h3>${m.name}</h3>
+          <p><strong>${m.role}</strong></p>
+          <p>${m.bio}</p>
+        </div>
+      `;
+    });
+  });
+
+// Load Projects
+fetch('data/projects.json')
+  .then(res => res.json())
+  .then(projects => {
+    const container = document.getElementById('projects-container');
+    projects.forEach(p => {
+      container.innerHTML += `
+        <div class="project-card">
+          <h3>${p.title}</h3>
+          <p>${p.summary}</p>
+          <p><em>${p.client}</em></p>
+          <p><strong>${p.role}</strong></p>
+          <a href="${p.report}" target="_blank">Download Report</a>
+        </div>
+      `;
+    });
+  });
+
+// Load Blog
+fetch('data/blog.json')
+  .then(res => res.json())
+  .then(posts => {
+    const container = document.getElementById('blog-container');
+    posts.forEach(b => {
+      container.innerHTML += `
+        <div class="blog-post">
+          <h3>${b.title}</h3>
+          <p><small>${b.date}</small></p>
+          <p>${b.content}</p>
+        </div>
+      `;
+    });
+  });

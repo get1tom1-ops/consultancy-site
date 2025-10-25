@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Research Consultancy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Health Research Consultancy</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Insights</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Homepage -->
+  <section id="home">
+    <h2>Our Mission</h2>
+    <p>We strengthen health systems, generate evidence, and build capacity through high-quality research and consultancy services.</p>
+    <a href="#contact" class="cta-button">Work With Us</a>
+  </section>
+
+  <!-- About Us -->
+  <section id="about">
+    <h2>About Us</h2>
+    <div id="team-container"></div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Health Research & Evaluation</li>
+      <li>Monitoring, Evaluation & Learning (MEL)</li>
+      <li>Training & Capacity Building</li>
+      <li>Health Education & Community Engagement</li>
+      <li>Technical Assistance & Policy Support</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects & Publications</h2>
+    <div id="projects-container"></div>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog">
+    <h2>Insights</h2>
+    <div id="blog-container"></div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@healthresearch.org</p>
+    <p>Phone: +251-900-000-000</p>
+    <form action="#" method="POST">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Health Research Consultancy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Niguse Tadele",
+    "role": "Owner",
+    "bio": "Founder of the consultancy, with expertise in health research, consultancy management, and partnerships.",
+    "photo": "images/niguse.jpg"
+  },
+  {
+    "name": "Tomas Getahun",
+    "role": "Senior Consultant",
+    "bio": "Public health professional with over 10 years of experience in health systems strengthening, donor-funded project management, and emergency response.",
+    "photo": "images/tomas.jpg"
+  }
+]
